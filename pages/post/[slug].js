@@ -31,6 +31,7 @@ import Footer from "@/components/partials/Footer";
 function SinglePost({ allPosts, allCategories }) {
   const [slug, setSlug] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [content, setContent] = useState();
 
   const breakpoints = {
     320: {
@@ -114,9 +115,12 @@ function SinglePost({ allPosts, allCategories }) {
               className="single-post-main-img"
             />
             <h1 className="fs-35 fw-700 mt-4">{post?.title}</h1>
-            {post && post.content && (
-              <InnerHTML className="single-post-content" html={post.content} />
-            )}
+
+            <InnerHTML
+              className="single-post-content"
+              html={post?.content}
+              key={post?._id}
+            />
           </div>
           <div className="col-md-4 m-0 p-0">
             <div className="ml-0 ml-md-4 dark-background text-white text-center mb-3 py-3 hover-red">
