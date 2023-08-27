@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Poppins:wght@100;400&family=Shippori+Mincho&display=swap");
+
+body {
+  font-family: "Chivo", sans-serif !important;
+}
+
+.font-secondary {
+  font-family: "Shipori Mincho", sans-serif !important;
+}
+
+.secondary-background {
+  background-color: #f3f3f3 !important;
+}
+
+.primay-background {
+  background-color: #ffffff !important;
+}
+
+.dark-background {
+  background-color: #212529 !important;
+}
+
+.text-black {
+  color: #131313 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-gray {
+  color: #c2c5db !important;
+}
+
+.text-red {
+  color: #c70d0d !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-23 {
+  font-size: 23px !important;
+}
+.fs-30 {
+  font-size: 30px !important;
+}
+.fs-35 {
+  font-size: 35px !important;
+}
+.fs-40 {
+  font-size: 40px !important;
+}
+.fs-44 {
+  font-size: 44px !important;
+}
+
+.main-container {
+  padding: 20px 80px 20px 80px !important;
+}
+
+.dark-container {
+  padding: 20px 80px 20px 80px !important;
+  background-color: #131313;
+  color: #ffffff !important;
+}
+
+.secondary-container {
+  background-color: #f3f3f3 !important;
+  padding: 20px 80px 20px 80px !important;
+}
+
+.nav-link:hover {
+  color: #c70d0d !important;
+}
+
+.separator {
+  background-color: #131313 !important;
+  height: 2px !important;
+}
+
+.white-separator {
+  background-color: #fff !important;
+  height: 2px !important;
+}
+
+.card {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.card-image {
+  height: 400px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.hover-red:hover {
+  color: #c70d0d !important;
+  cursor: pointer !important;
+}
+
+.card-body-lg {
+  padding: 0px 120px 0px 0px !important;
+}
+
+.side-card {
+  height: 200px !important;
+}
+
+.side-card-img {
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.link {
+  font-size: 16px !important;
+  text-decoration: underline;
+  font-weight: 700 !important;
+}
+
+.single-post-main-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.single-post-content {
+  font-family: "Shipori Mincho", sans-serif !important;
+  color: #646464 !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  margin-bottom: 15px !important;
+  font-weight: normal !important;
+}
+
+.single-post-related-posts-container {
+  overflow-y: scroll;
+  height: 700px;
+}
+
+.newsletter-text {
+  font-family: "Shipori Mincho", sans-serif !important;
+  font-size: 20px !important;
+}
+
+.newsletter-input {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #131313 !important;
+  height: 50px !important;
+  width: calc(100% - 140px);
+}
+
+.newsletter-input:focus {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 2px solid #131313 !important;
+}
+
+.newsletter-button {
+  background-color: #c70d0d !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-family: "Chivo", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  height: 50px !important;
+  width: 120px !important;
+}
+
+.swiper-slide {
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #c70d0d !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #c70d0d !important;
+}
+
+.navbar-toggler[aria-expanded="false"] > .navbar-toggler-icon {
+  background-image: url("../assets/images/burger.svg") !important;
+}
+
+.navbar-toggler[aria-expanded="true"] > .navbar-toggler-icon {
+  background-image: url("../assets/images/cross.svg") !important;
+}
+
+button.navbar-toggler {
+  outline: none !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .dark-container {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .secondary-container {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .card-body-lg {
+    padding: 0px 0px 0px 0px !important;
+  }
+}
